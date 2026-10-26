@@ -355,3 +355,9 @@ Because the confidence interval excludes zero, the difference is statistically s
 - A 95% confidence interval excluding zero corresponds to statistical significance at the 5% level for these two-sided tests.
 - A non-significant result does not establish equality or equivalence.
 - Statistical significance does not automatically establish clinical importance.
+
+
+## Part 3: Linear Regression Analysis
+
+- [Read the regression report](03_regression_analysis.md)
+- [View the R code](03_linear_regression_in_R.R)
