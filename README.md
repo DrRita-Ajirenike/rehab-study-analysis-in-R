@@ -6,7 +6,7 @@ I am a medical doctor and MSc Global Health student developing my skills in R fo
 
 In this project, I revisit a rehabilitation study dataset containing 200 participants in standard and intensive treatment groups. Through this “Learn R with Me” series, I share my code, explain my approach, and reflect on what I learn along the way.
 
-The project began as a quantitative methods course exercise involving group discussions. This repository presents my individual R code, subsequent revisions, and my reflections.
+The project began as a quantitative methods course and this repository presents my individual R code, subsequent revisions, and my reflections.
 
 ## Part 1: Data Preparation and Exploration
 
