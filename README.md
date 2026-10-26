@@ -10,7 +10,7 @@ The project began as a quantitative methods course exercise involving group disc
 
 ## Part 1: Data Preparation and Exploration
 
-Before comparing treatment outcomes, I prepare the data and explore participant characteristics.
+Before comparing treatment outcomes, I prepare the data and explore participant characteristics
 
 In this first part, I practise how to:
 
