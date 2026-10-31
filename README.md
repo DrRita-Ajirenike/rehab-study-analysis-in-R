@@ -152,7 +152,7 @@ This is an evolving learning portfolio, and I will refine it as my skills develo
 ## Author
 
 **Rita N. Ajirenike**  
-Medical doctor | MSc Global Health scholar
+Medical doctor | MSc Global Health Scholar
 
 
 ## Part 2: Comparing Treatment Outcomes Using t-Tests
