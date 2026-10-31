@@ -1,3 +1,7 @@
+
+## Part 2: Comparing Treatment Outcomes Using t-Tests
+
+
 ### Research questions
 
 1. Does mean improvement in working capacity (WEFF) differ between the standard and intensive treatment groups?
