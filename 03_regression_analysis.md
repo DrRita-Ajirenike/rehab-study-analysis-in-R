@@ -1,4 +1,4 @@
-# Part 3: Linear Regression Analysis of Work Capacity Following Rehabilitation
+# Part 3: Linear Regression Analysis of Work Capacity Following Rehabilitation.
 
 This analysis examines the relationship between age, treatment allocation, smoking status, beta-blocker use, and work capacity following rehabilitation. Simple and multiple linear regression models are used to investigate changes in work capacity and work capacity at three months, including adjustment for baseline work capacity.
 
