@@ -149,11 +149,6 @@ For each part, I will share the questions explored, code, results, interpretatio
 
 This is an evolving learning portfolio, and I will refine it as my skills develop.
 
-## Author
-
-**Rita N. Ajirenike**  
-Medical doctor | MSc Global Health Scholar
-
 
 ## Part 2: Comparing Treatment Outcomes Using t-Tests
 
@@ -164,3 +159,8 @@ Medical doctor | MSc Global Health Scholar
 
 - [Read the regression report](03_regression_analysis.md)
 - [View the R code](03_linear_regression_in_R.R)
+
+
+## Author
+**Rita N. Ajirenike**  
+Medical doctor | MSc Global Health Scholar
