@@ -43,7 +43,7 @@ These variables will be used for subsequent analyses to compare changes between 
 ## Step 3: Creating labelled categorical variables
 The original treatment, hypertension, and diabetes variables use numerical codes (0 & 1). I create labelled factors and labeled them accordingly. This makes the variables easier to interpret.
 
-!<img width="601" height="202" alt="d2" src="https://github.com/user-attachments/assets/17ce5867-3c22-48b1-a0ba-88d03ba8311c" />
+<img width="601" height="202" alt="d2" src="https://github.com/user-attachments/assets/17ce5867-3c22-48b1-a0ba-88d03ba8311c" />
 
 
 The Factor function tells R that these values represent categories. This is useful when presenting frequency summaries, comparing groups, and fitting models with categorical predictors.
@@ -71,10 +71,19 @@ Question in mind: How are hypertension, diabetes, and salary distributed across 
 I used grouped summaries to describe the frequency of hypertension and diabetes and the distribution of salary categories within each treatment group.
 
 I also examined two specific questions:
-1. How many participants in the intensive treatment group have hypertension, and how many have diabetes?
-2. What is the median salary among participants in the standard treatment group?
+1. How many participants are in each treatment group?
+2. How many participants in the intensive treatment group have hypertension, and how many have diabetes?
+3. What is the median salary among participants in the standard treatment group?
    
 Note-- The hypertension and diabetes counts are calculated separately; participants may have both conditions.
+
+<img width="528" height="127" alt="part  by treat group" src="https://github.com/user-attachments/assets/57a0b55b-c49f-4daa-b54d-ff572f86e608" />
+
+
+<img width="1158" height="355" alt="des stats" src="https://github.com/user-attachments/assets/5e70b688-e3a6-416c-9caa-beb99a253405" />
+
+
+<img width="695" height="222" alt="med salary" src="https://github.com/user-attachments/assets/215ca57e-fae7-4ebc-84a0-a80d7316769c" />
 
 
 ## Step 7: Comparing proportions within salary groups
@@ -84,10 +93,7 @@ Guiding questions:
 3. Which salary group has the highest proportion of participants with diabetes?
 
 
-   Code screenshot- !<img width="1045" height="156" alt="p 1" src="https://github.com/user-attachments/assets/c5f660e3-c307-42c3-b6db-c6c4ec47054c" />
-
-Output - !<img width="922" height="397" alt="p2" src="https://github.com/user-attachments/assets/7be37fd7-0a35-48f7-9d15-4dbda95e9988" />
-
+<img width="922" height="397" alt="p2" src="https://github.com/user-attachments/assets/7be37fd7-0a35-48f7-9d15-4dbda95e9988" />
 
 
 ### Selected Descriptive Findings
