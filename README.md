@@ -430,6 +430,10 @@ Because the confidence interval excludes zero, the difference is statistically s
 - A non-significant result does not establish equality or equivalence.
 - Statistical significance does not automatically establish clinical importance.
 
+## Part 2: Comparing Treatment Outcomes Using t-Tests
+
+- [Read the t-test report](02_t_test_analysis.md)
+- [View the R code](02_comparing_treatment_outcome_using_R.R)
 
 ## Part 3: Linear Regression Analysis
 
