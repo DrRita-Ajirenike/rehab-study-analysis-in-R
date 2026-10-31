@@ -12,7 +12,7 @@ The project began as a quantitative methods course and this repository presents 
 
 Before comparing treatment outcomes, I prepare the data and explore participant characteristics
 
-In this first part, I practise how to:
+In this first part, I practised how to:
 
 - Import an Excel dataset and inspect its structure.
 - Calculate changes in cholesterol and triglyceride levels as discharge minus entry values.
@@ -21,6 +21,71 @@ In this first part, I practise how to:
 - Explore changes in cholesterol and triglycerides using boxplots.
 - Summarise participant characteristics by treatment group.
 - Calculate and interpret proportions within salary groups.
+
+
+## Step 1: Import and inspect the dataset
+I imported the Excel dataset using read_excel() and inspected it using View() and str().
+
+This allowed me to identify the available variables, their storage types, and whether any variables need to be transformed before analysis.
+
+## Step 2: Calculation of changes in lipid levels (Cholesterol & triglyceride)
+I created two variables representing changes from entry to discharge:
+
+New variable	Calculation	Meaning
+CHOL_DIFF	CHOLD − CHOLE	Change in cholesterol
+TRIG_DIFF	TRIGD − TRIGE	Change in triglycerides
+
+
+How to interpret: Because change is calculated as value at discharge minus value at entry, a negative value indicates a reduction, a positive value indicates an increase, and zero reflects no change.
+
+These variables will be used for subsequent analyses to compare changes between the treatment groups (standard vs treatment).
+
+## Step 3: Creating labelled categorical variables
+The original treatment, hypertension, and diabetes variables use numerical codes (0 & 1). I create labelled factors and labeled them accordingly. This makes the variables easier to interpret.
+New factor	Original coding	Labels
+TREAT_factor	0 / 1	Standard / Intensive
+HYPERTEN_factor	0 / 1	Absent / Present
+DIAB_factor	0 / 1	Absent / Present
+
+
+The Factor function tells R that these values represent categories. This is useful when presenting frequency summaries, comparing groups, and fitting models with categorical predictors.
+
+## Step 4: Grouping participants by salary
+I created SALARY_GROUPS using three salary bands: ≤30k, 30k to ≤40k and >40k
+Descriptive comparisons of treatment allocation, hypertension, and diabetes can be achieved using the salary groupings created.
+
+
+## Step 5: Exploring lipid changes by treatment group (initial exploration with boxplots)
+
+Guiding question: How do the distributions of cholesterol and triglyceride changes compare between the standard and intensive treatment groups?
+
+I created boxplots of CHOL_DIFF and TRIG_DIFF by the treatment groups (standard vs treatment) and examined the following:
+
+1. The median change in each group.
+2. The spread of the observations.
+3. Differences in the shapes of the distributions.
+4. Potential outlying observations.
+These plots provide an initial visual comparison. They do not, by themselves, establish whether the treatment groups differ statistically.
+
+## Step 6: Summarising the participant characteristics by treatment group (standard vs treatment)
+Question in mind: How are hypertension, diabetes, and salary distributed across the 2 treatment groups?
+
+I used grouped summaries to describe the frequency of hypertension and diabetes and the distribution of salary categories within each treatment group.
+
+I also examined two specific questions:
+1. How many participants in the intensive treatment group have hypertension, and how many have diabetes?
+2. What is the median salary among participants in the standard treatment group?
+   
+Note-- The hypertension and diabetes counts are calculated separately; participants may have both conditions.
+
+
+## Step 7: Comparing proportions within salary groups
+Guiding questions:
+1. Which salary group has the highest proportion of participants receiving intensive treatment?
+2. Which salary group has the highest proportion of participants with hypertension?
+3. Which salary group has the highest proportion of participants with diabetes?
+
+
 
 ### Selected Descriptive Findings
 
@@ -35,7 +100,7 @@ The proportion receiving intensive treatment was highest in the lowest salary gr
 
 Hypertension was slightly more common in the >40,000 salary group (33.3%) than in the middle salary group (33.1%). Diabetes was most common in the middle salary group (8.6%).
 
-These comparisons describe the data; they do not establish statistically significant differences or causal relationships.
+These comparisons describe the data; they do not establish statistically significant differences or causal relationships. In the coming parts, I will be exploring statistical significance of various outcomes using t-tests and regression models.
 
 ### What I Learned
 
