@@ -433,7 +433,7 @@ Because the confidence interval excludes zero, the difference is statistically s
 ## Part 2: Comparing Treatment Outcomes Using t-Tests
 
 - [Read the t-test report](02_t_test_analysis.md)
-- [View the R code](02_comparing_treatment_outcome_using_R.R)
+- [View the R code](02_comparing_treatment_outcomes_using_t_tests_in_R.R)
 
 ## Part 3: Linear Regression Analysis
 
