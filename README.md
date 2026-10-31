@@ -31,9 +31,9 @@ This allowed me to identify the available variables, their storage types, and wh
 ## Step 2: Calculation of changes in lipid levels (Cholesterol & triglyceride)
 I created two variables representing changes from entry to discharge:
 
-New variable	Calculation	Meaning
-CHOL_DIFF	CHOLD − CHOLE	Change in cholesterol
-TRIG_DIFF	TRIGD − TRIGE	Change in triglycerides
+
+!<img width="680" height="148" alt="d1" src="https://github.com/user-attachments/assets/f8d7752e-df5a-406f-81cd-2d4cb2c10dce" />
+
 
 
 How to interpret: Because change is calculated as value at discharge minus value at entry, a negative value indicates a reduction, a positive value indicates an increase, and zero reflects no change.
@@ -42,10 +42,8 @@ These variables will be used for subsequent analyses to compare changes between 
 
 ## Step 3: Creating labelled categorical variables
 The original treatment, hypertension, and diabetes variables use numerical codes (0 & 1). I create labelled factors and labeled them accordingly. This makes the variables easier to interpret.
-New factor	Original coding	Labels
-TREAT_factor	0 / 1	Standard / Intensive
-HYPERTEN_factor	0 / 1	Absent / Present
-DIAB_factor	0 / 1	Absent / Present
+
+!<img width="601" height="202" alt="d2" src="https://github.com/user-attachments/assets/17ce5867-3c22-48b1-a0ba-88d03ba8311c" />
 
 
 The Factor function tells R that these values represent categories. This is useful when presenting frequency summaries, comparing groups, and fitting models with categorical predictors.
@@ -84,6 +82,11 @@ Guiding questions:
 1. Which salary group has the highest proportion of participants receiving intensive treatment?
 2. Which salary group has the highest proportion of participants with hypertension?
 3. Which salary group has the highest proportion of participants with diabetes?
+
+
+   Code screenshot- !<img width="1045" height="156" alt="p 1" src="https://github.com/user-attachments/assets/c5f660e3-c307-42c3-b6db-c6c4ec47054c" />
+
+Output - !<img width="922" height="397" alt="p2" src="https://github.com/user-attachments/assets/7be37fd7-0a35-48f7-9d15-4dbda95e9988" />
 
 
 
